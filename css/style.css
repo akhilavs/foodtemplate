@@ -1,0 +1,69 @@
+/*author:akhila*/
+/* Date: 16/02/2023*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.icon{
+    width: 20%;
+}
+.col_f{
+    background-color: #f24f44;
+}
+.spclity{
+    background-color: #F5EAEA;
+}
+.contain{
+    background-image: url("../image/agency-slider-04.jpg");
+}
+.r_menu{
+    background-image: url("../image/restaurant-menu-bg.jpg");
+    background-size: cover;
+}
+.clr{
+    background-color: #F5EAEA;
+}
+.btable{
+    background-image:linear-gradient(
+        rgba(22, 23, 24, 0.7),
+        rgba(18, 19, 20, 0.7)
+    ),
+     url("../image/hero-bg9.jpg");
+    background-size: cover;
+    color: #ffffff;
+}
+.fitness{
+    background-image: url("../image/fitness-about-bg.jpg");
+    background-size: cover;
+}
+.contact{
+    background-image:linear-gradient(
+        rgba(22, 23, 24, 0.7),
+        rgba(18, 19, 20, 0.7)
+    ),
+    url("../image/hero-bg3.jpg");
+    background-size: cover;
+    color: #ffffff;
+
+}
+.cart{
+    width: 25px;
+    height:25px;
+    color: rgb(92, 19, 19);
+    margin: 80px;
+}
+.colr{
+    color: #ffffff;
+}
+.sign{
+    font-family: Brush Script MT;
+    color: orange;
+    font-size: xx-large;
+    letter-spacing: 3px;
+}
+@media screen and (max-width:720px) and (min-width:320px){
+    .r_menu{
+        background-image: none;
+    }
+}
